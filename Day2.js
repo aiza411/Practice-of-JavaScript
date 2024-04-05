@@ -70,3 +70,29 @@ for (var i = 1; i <= 10; i++) {
     }
 }
 
+
+//For-Of Loop
+let strVal="Aiza";
+for(let val of strVal)
+{
+    console.log("val :",val);
+}
+
+//For-of loop
+let arrayObj=["Aiza","Farooq","Butt"];
+for(let val of arrayObj)
+{
+    console.log("val :",val);
+}
+
+
+//for in loop
+let obj={
+    key1:"val1",
+    key2:"val2",
+    key3:"val3"
+};
+for(let key in obj)
+{
+    console.log("key :",key," value: ",obj[key]);
+}
